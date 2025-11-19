@@ -7,14 +7,14 @@
 
 // set the numbers
 const Pi: number = 3.14;
-let r: number = 5.6 ;
+let radius: number = 5.6 ;
 
 // calculate the area
-let answer: number = Pi * (r * r);
+let answer: number = Pi * (radius * radius);
 
 // display the answer
 console.log(
-  "The area of a circle with a radius of " + r + " cm is " + answer + " cm²."
+  "The area of a circle with a radius of " + radius + " cm is " + answer + " cm²."
 );
 
 console.log("\nDone.");
